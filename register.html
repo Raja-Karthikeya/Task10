@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <center>
+        <form style="background-color: lightgreen;" action="login.html" method="get">
+            <h2>Enter your credentials to Register</h2>
+            <label for="Name">Name:</label>
+            <input type="text" placeholder="Enter name" id="fullName" pattern="[a-zA-Z0-9]{6,}"required><br><br>
+            <label for="e-mail">E-mail:</label>
+            <input type="email" placeholder="Enter e-mail" id="email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{,}"required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter Password" id="password" pattern="[a-z0-9]{4,}"required><br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" placeholder="confirm-password" id="password" pattern="[a-z0-9]{4,}" required><br><br>
+            <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter Address" required></textarea><br><br>
+            <button>Register</button><br><br>
+            Already have an account? <a href="login.html">Login</a>
+        </form>
+    </center>
+</body>
+</html>
